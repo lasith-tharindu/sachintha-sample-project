@@ -1,0 +1,23 @@
+.home-scrolling-area{
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+.home-scrolling-main-row{
+
+  height: 100vh;
+    overflow-y: scroll;
+}
+.home-scrolling-card-img{
+  width:900px;
+  height:554px;
+}
+.profile-img{
+  height: 125px;
+  width: 125px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.home-scrolling-main-row::-webkit-scrollbar{
+  display: none;
+}
